@@ -186,7 +186,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="NJlla8pK8g0mC77hOBL3-332" value="Отзыв" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;arcSize=12;" vertex="1" parent="1">
-          <mxGeometry x="-1010" y="-160" width="370" height="312" as="geometry" />
+          <mxGeometry x="-1010" y="-160" width="370" height="280" as="geometry" />
         </mxCell>
         <mxCell id="NJlla8pK8g0mC77hOBL3-363" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="NJlla8pK8g0mC77hOBL3-332" source="NJlla8pK8g0mC77hOBL3-333">
           <mxGeometry relative="1" as="geometry">
@@ -211,11 +211,8 @@
         <mxCell id="NJlla8pK8g0mC77hOBL3-338" value="dislike -&amp;nbsp; дислайк&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=18;labelBackgroundColor=none;" vertex="1" parent="NJlla8pK8g0mC77hOBL3-332">
           <mxGeometry y="210" width="370" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="NJlla8pK8g0mC77hOBL3-340" value="url - url к кино&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=18;labelBackgroundColor=none;" vertex="1" parent="NJlla8pK8g0mC77hOBL3-332">
-          <mxGeometry y="244" width="370" height="34" as="geometry" />
-        </mxCell>
         <mxCell id="NJlla8pK8g0mC77hOBL3-348" value="catigori - харошый плохой нетральный&amp;nbsp;&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=18;labelBackgroundColor=none;" vertex="1" parent="NJlla8pK8g0mC77hOBL3-332">
-          <mxGeometry y="278" width="370" height="34" as="geometry" />
+          <mxGeometry y="244" width="370" height="34" as="geometry" />
         </mxCell>
         <mxCell id="NJlla8pK8g0mC77hOBL3-341" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="NJlla8pK8g0mC77hOBL3-332">
           <mxGeometry relative="1" as="geometry">
@@ -256,9 +253,10 @@
         <mxCell id="NJlla8pK8g0mC77hOBL3-361" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NJlla8pK8g0mC77hOBL3-360" target="NJlla8pK8g0mC77hOBL3-152">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NJlla8pK8g0mC77hOBL3-362" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.002;entryY=0.689;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="NJlla8pK8g0mC77hOBL3-340" target="NJlla8pK8g0mC77hOBL3-342">
+        <mxCell id="NJlla8pK8g0mC77hOBL3-362" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.002;entryY=0.689;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="NJlla8pK8g0mC77hOBL3-342">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-1550" y="-480" as="targetPoint" />
+            <mxPoint x="-1010" y="101.03030303030323" as="sourcePoint" />
             <Array as="points">
               <mxPoint x="-1600" y="101" />
               <mxPoint x="-1600" y="-490" />

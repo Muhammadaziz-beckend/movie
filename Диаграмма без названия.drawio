@@ -1,9 +1,292 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.6">
   <diagram name="Страница — 1" id="7w9otStLfGY9ZgNLzYjq">
-    <mxGraphModel>
+    <mxGraphModel dx="4934" dy="2649" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="NJlla8pK8g0mC77hOBL3-33" value="&lt;h1 style=&quot;text-align: center; margin-top: 0px; font-size: 18px;&quot;&gt;Карточка кино&lt;/h1&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;/p&gt;&lt;ol&gt;&lt;li style=&quot;box-sizing: border-box; list-style: auto; padding: 0px;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; font-weight: bolder;&quot;&gt;title:&lt;/span&gt;&amp;nbsp;Название фильма (CharField, обязательное)&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; list-style: auto; padding: 0px;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; font-weight: bolder;&quot;&gt;description:&lt;/span&gt;&amp;nbsp;Краткое описание сюжета фильма (TextField, необязательное)&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; list-style: auto; padding: 0px;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; font-weight: bolder;&quot;&gt;release_date:&lt;/span&gt;&amp;nbsp;Дата выхода фильма (DateField, обязательное)&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; list-style: auto; padding: 0px;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; font-weight: bolder;&quot;&gt;country:&lt;/span&gt;&amp;nbsp;Страна производства (CharField, обязательное)&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; list-style: auto; padding: 0px;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; font-weight: bolder;&quot;&gt;tagline:&lt;/span&gt;&amp;nbsp;Слоган фильма (CharField, необязательное)&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; list-style: auto; padding: 0px;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; font-weight: bolder;&quot;&gt;rating:&lt;/span&gt;&amp;nbsp;Рейтинг фильма (FloatField, необязательное)&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; list-style: auto; padding: 0px;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; font-weight: bolder;&quot;&gt;runtime:&lt;/span&gt;&amp;nbsp;Длительность фильма (IntegerField, обязательное)&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; list-style: auto; padding: 0px;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; font-weight: bolder;&quot;&gt;genre:&lt;/span&gt;&amp;nbsp;Жанр фильма (CharField, необязательное)&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; list-style: auto; padding: 0px;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; font-weight: bolder;&quot;&gt;director:&lt;/span&gt;&amp;nbsp;Режиссер (CharField, необязательное)&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; list-style: auto; padding: 0px;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; font-weight: bolder;&quot;&gt;writer:&lt;/span&gt;&amp;nbsp;Сценарист (CharField, необязательное)&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; list-style: auto; padding: 0px;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; font-weight: bolder;&quot;&gt;producer:&lt;/span&gt;&amp;nbsp;Продюсер (CharField, необязательное)&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; list-style: auto; padding: 0px;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; font-weight: bolder;&quot;&gt;poster:&lt;/span&gt;&amp;nbsp;Постер фильма (ImageField, необязательное)&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1654" y="-1169" width="480" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="NJlla8pK8g0mC77hOBL3-34" value="" style="shape=component;jettyWidth=8;jettyHeight=4;labelBackgroundColor=none;" vertex="1" parent="NJlla8pK8g0mC77hOBL3-33">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-30" y="8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NJlla8pK8g0mC77hOBL3-364" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="NJlla8pK8g0mC77hOBL3-152" target="NJlla8pK8g0mC77hOBL3-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NJlla8pK8g0mC77hOBL3-152" value="Карточка кино" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="-1524" y="-800" width="220" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="NJlla8pK8g0mC77hOBL3-154" value="&lt;span style=&quot;color: rgb(33, 37, 41); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Noto Sans&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 16px; background-color: rgb(255, 255, 255); box-sizing: border-box; font-weight: bolder;&quot;&gt;title&amp;nbsp;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" vertex="1" parent="NJlla8pK8g0mC77hOBL3-152">
+          <mxGeometry y="26" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NJlla8pK8g0mC77hOBL3-155" value="&lt;div&gt;&lt;span style=&quot;color: rgb(33, 37, 41); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Noto Sans&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 16px; background-color: rgb(255, 255, 255); box-sizing: border-box; font-weight: bolder;&quot;&gt;description&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" vertex="1" parent="NJlla8pK8g0mC77hOBL3-152">
+          <mxGeometry y="52" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NJlla8pK8g0mC77hOBL3-206" value="&lt;div&gt;&lt;span style=&quot;color: rgb(33, 37, 41); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Noto Sans&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 16px; background-color: rgb(255, 255, 255); box-sizing: border-box; font-weight: bolder;&quot;&gt;release_date&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" vertex="1" parent="NJlla8pK8g0mC77hOBL3-152">
+          <mxGeometry y="78" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NJlla8pK8g0mC77hOBL3-211" value="&lt;div&gt;&lt;span style=&quot;color: rgb(33, 37, 41); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Noto Sans&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 16px; font-weight: 700; background-color: rgb(255, 255, 255);&quot;&gt;description&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" vertex="1" parent="NJlla8pK8g0mC77hOBL3-152">
+          <mxGeometry y="104" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NJlla8pK8g0mC77hOBL3-209" value="&lt;div&gt;&lt;span style=&quot;color: rgb(33, 37, 41); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Noto Sans&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 16px; background-color: rgb(255, 255, 255); box-sizing: border-box; font-weight: bolder;&quot;&gt;tagline&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" vertex="1" parent="NJlla8pK8g0mC77hOBL3-152">
+          <mxGeometry y="130" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NJlla8pK8g0mC77hOBL3-208" value="&lt;div&gt;&lt;span style=&quot;color: rgb(33, 37, 41); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Noto Sans&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 16px; background-color: rgb(255, 255, 255); box-sizing: border-box; font-weight: bolder;&quot;&gt;rating&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" vertex="1" parent="NJlla8pK8g0mC77hOBL3-152">
+          <mxGeometry y="156" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NJlla8pK8g0mC77hOBL3-210" value="&lt;div&gt;&lt;span style=&quot;color: rgb(33, 37, 41); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Noto Sans&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 16px; background-color: rgb(255, 255, 255); box-sizing: border-box; font-weight: bolder;&quot;&gt;genre&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" vertex="1" parent="NJlla8pK8g0mC77hOBL3-152">
+          <mxGeometry y="182" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NJlla8pK8g0mC77hOBL3-207" value="&lt;div&gt;&lt;span style=&quot;color: rgb(33, 37, 41); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Noto Sans&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 16px; background-color: rgb(255, 255, 255); box-sizing: border-box; font-weight: bolder;&quot;&gt;director&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" vertex="1" parent="NJlla8pK8g0mC77hOBL3-152">
+          <mxGeometry y="208" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NJlla8pK8g0mC77hOBL3-212" value="&lt;div&gt;&lt;span style=&quot;color: rgb(33, 37, 41); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Noto Sans&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 16px; background-color: rgb(255, 255, 255); box-sizing: border-box; font-weight: bolder;&quot;&gt;writer&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" vertex="1" parent="NJlla8pK8g0mC77hOBL3-152">
+          <mxGeometry y="234" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NJlla8pK8g0mC77hOBL3-213" value="&lt;div&gt;&lt;span style=&quot;color: rgb(33, 37, 41); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Noto Sans&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 16px; background-color: rgb(255, 255, 255); box-sizing: border-box; font-weight: bolder;&quot;&gt;producer&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" vertex="1" parent="NJlla8pK8g0mC77hOBL3-152">
+          <mxGeometry y="260" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NJlla8pK8g0mC77hOBL3-236" value="&lt;span style=&quot;font-family: SFMono-Regular, Menlo, Monaco, Consolas, &amp;quot;Liberation Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgba(0, 0, 0, 0.05); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;video_file&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="NJlla8pK8g0mC77hOBL3-152">
+          <mxGeometry y="286" width="220" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="NJlla8pK8g0mC77hOBL3-342" value="&lt;font face=&quot;SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace&quot;&gt;&lt;span style=&quot;font-size: 14px; background-color: rgba(0, 0, 0, 0.05);&quot;&gt;coment - отзыв&lt;/span&gt;&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="NJlla8pK8g0mC77hOBL3-152">
+          <mxGeometry y="318" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NJlla8pK8g0mC77hOBL3-214" value="&lt;div&gt;&lt;span style=&quot;color: rgb(33, 37, 41); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Noto Sans&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 16px; background-color: rgb(255, 255, 255); box-sizing: border-box; font-weight: bolder;&quot;&gt;poster&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;" vertex="1" parent="NJlla8pK8g0mC77hOBL3-152">
+          <mxGeometry y="344" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NJlla8pK8g0mC77hOBL3-237" value="&lt;span style=&quot;font-family: SFMono-Regular, Menlo, Monaco, Consolas, &amp;quot;Liberation Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; background-color: rgba(0, 0, 0, 0.05);&quot;&gt;actors&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="NJlla8pK8g0mC77hOBL3-152">
+          <mxGeometry y="370" width="220" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="NJlla8pK8g0mC77hOBL3-180" style="edgeStyle=orthogonalEdgeStyle;html=1;labelBackgroundColor=none;startFill=0;startSize=8;endFill=1;endSize=8;fontFamily=Verdana;fontSize=12;exitX=1;exitY=0.25;entryX=1;entryY=0.5;rounded=0;fontColor=default;" edge="1" parent="1" source="NJlla8pK8g0mC77hOBL3-165">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="210" y="581" />
+              <mxPoint x="210" y="333" />
+            </Array>
+            <mxPoint x="180" y="333" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NJlla8pK8g0mC77hOBL3-216" value="&lt;span style=&quot;font-family: Helvetica; text-wrap: wrap;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Жанр фильма&lt;/font&gt;&lt;/span&gt;" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="-1241" y="-800" width="221" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="NJlla8pK8g0mC77hOBL3-228" value="name&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=18;labelBackgroundColor=none;" vertex="1" parent="NJlla8pK8g0mC77hOBL3-216">
+          <mxGeometry y="40" width="221" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="NJlla8pK8g0mC77hOBL3-229" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="NJlla8pK8g0mC77hOBL3-210" target="NJlla8pK8g0mC77hOBL3-228">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1270" y="-605" />
+              <mxPoint x="-1270" y="-743" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NJlla8pK8g0mC77hOBL3-249" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="NJlla8pK8g0mC77hOBL3-238" target="NJlla8pK8g0mC77hOBL3-237">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NJlla8pK8g0mC77hOBL3-238" value="&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;font-size: 15px; text-wrap: wrap;&quot;&gt;Актёр&lt;/span&gt;&lt;/font&gt;" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="-1174" y="-680" width="314" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="NJlla8pK8g0mC77hOBL3-239" value="name&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=18;labelBackgroundColor=none;" vertex="1" parent="NJlla8pK8g0mC77hOBL3-238">
+          <mxGeometry y="40" width="314" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NJlla8pK8g0mC77hOBL3-253" value="career - карьера (актёр,продюсер)" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=18;labelBackgroundColor=none;" vertex="1" parent="NJlla8pK8g0mC77hOBL3-238">
+          <mxGeometry y="70" width="314" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NJlla8pK8g0mC77hOBL3-251" value="height - рост" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=18;labelBackgroundColor=none;" vertex="1" parent="NJlla8pK8g0mC77hOBL3-238">
+          <mxGeometry y="100" width="314" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NJlla8pK8g0mC77hOBL3-254" value="date of birth - дата роджения" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=18;labelBackgroundColor=none;" vertex="1" parent="NJlla8pK8g0mC77hOBL3-238">
+          <mxGeometry y="130" width="314" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NJlla8pK8g0mC77hOBL3-255" value="birthplace - место рождения" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=18;labelBackgroundColor=none;" vertex="1" parent="NJlla8pK8g0mC77hOBL3-238">
+          <mxGeometry y="160" width="314" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NJlla8pK8g0mC77hOBL3-267" value="genres - Жанры" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=18;labelBackgroundColor=none;" vertex="1" parent="NJlla8pK8g0mC77hOBL3-238">
+          <mxGeometry y="190" width="314" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NJlla8pK8g0mC77hOBL3-262" value="total movies - всего фильемов" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=18;labelBackgroundColor=none;" vertex="1" parent="NJlla8pK8g0mC77hOBL3-238">
+          <mxGeometry y="220" width="314" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NJlla8pK8g0mC77hOBL3-259" value="active years - стаж" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=18;labelBackgroundColor=none;" vertex="1" parent="NJlla8pK8g0mC77hOBL3-238">
+          <mxGeometry y="250" width="314" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NJlla8pK8g0mC77hOBL3-265" value="photo - фото" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=18;labelBackgroundColor=none;" vertex="1" parent="NJlla8pK8g0mC77hOBL3-238">
+          <mxGeometry y="280" width="314" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NJlla8pK8g0mC77hOBL3-355" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="NJlla8pK8g0mC77hOBL3-238" source="NJlla8pK8g0mC77hOBL3-258">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-245.99999999999977" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NJlla8pK8g0mC77hOBL3-258" value="movies - кино которых учавствовал" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=18;labelBackgroundColor=none;" vertex="1" parent="NJlla8pK8g0mC77hOBL3-238">
+          <mxGeometry y="310" width="314" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NJlla8pK8g0mC77hOBL3-283" value="&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;font-size: 15px; text-wrap: wrap;&quot;&gt;User&lt;/span&gt;&lt;/font&gt;" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="-730" y="-1080" width="310" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="NJlla8pK8g0mC77hOBL3-294" value="photo - фото" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=18;labelBackgroundColor=none;" vertex="1" parent="NJlla8pK8g0mC77hOBL3-283">
+          <mxGeometry y="40" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NJlla8pK8g0mC77hOBL3-284" value="name - имя" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=18;labelBackgroundColor=none;" vertex="1" parent="NJlla8pK8g0mC77hOBL3-283">
+          <mxGeometry y="70" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NJlla8pK8g0mC77hOBL3-296" value="bio - описания" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=18;labelBackgroundColor=none;" vertex="1" parent="NJlla8pK8g0mC77hOBL3-283">
+          <mxGeometry y="100" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NJlla8pK8g0mC77hOBL3-297" value="gender - пол" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=18;labelBackgroundColor=none;" vertex="1" parent="NJlla8pK8g0mC77hOBL3-283">
+          <mxGeometry y="130" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NJlla8pK8g0mC77hOBL3-298" value="date of birth - дат рождения" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=18;labelBackgroundColor=none;" vertex="1" parent="NJlla8pK8g0mC77hOBL3-283">
+          <mxGeometry y="160" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NJlla8pK8g0mC77hOBL3-299" value="city - город" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=18;labelBackgroundColor=none;" vertex="1" parent="NJlla8pK8g0mC77hOBL3-283">
+          <mxGeometry y="190" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NJlla8pK8g0mC77hOBL3-360" value="&lt;div&gt;favorite genres - любимые филемы&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=18;labelBackgroundColor=none;" vertex="1" parent="NJlla8pK8g0mC77hOBL3-283">
+          <mxGeometry y="220" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NJlla8pK8g0mC77hOBL3-300" value="&lt;div&gt;favorite genres - любимые филемы&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=18;labelBackgroundColor=none;" vertex="1" parent="NJlla8pK8g0mC77hOBL3-283">
+          <mxGeometry y="250" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NJlla8pK8g0mC77hOBL3-301" value="friends - друзья" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=18;labelBackgroundColor=none;" vertex="1" parent="NJlla8pK8g0mC77hOBL3-283">
+          <mxGeometry y="280" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NJlla8pK8g0mC77hOBL3-304" value="coment - комментарии" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=18;labelBackgroundColor=none;" vertex="1" parent="NJlla8pK8g0mC77hOBL3-283">
+          <mxGeometry y="310" width="310" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NJlla8pK8g0mC77hOBL3-305" value="&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;font-size: 15px; text-wrap: wrap;&quot;&gt;Gender&lt;/span&gt;&lt;/font&gt;" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="-350" y="-1080" width="310" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="NJlla8pK8g0mC77hOBL3-306" value="men - мужской" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=18;labelBackgroundColor=none;" vertex="1" parent="NJlla8pK8g0mC77hOBL3-305">
+          <mxGeometry y="40" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NJlla8pK8g0mC77hOBL3-307" value="women - женский&amp;nbsp;&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=18;labelBackgroundColor=none;" vertex="1" parent="NJlla8pK8g0mC77hOBL3-305">
+          <mxGeometry y="70" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NJlla8pK8g0mC77hOBL3-316" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NJlla8pK8g0mC77hOBL3-297" target="NJlla8pK8g0mC77hOBL3-305">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NJlla8pK8g0mC77hOBL3-320" value="&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;font-size: 15px; text-wrap: wrap;&quot;&gt;frends&lt;/span&gt;&lt;/font&gt;" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="-350" y="-940" width="310" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="NJlla8pK8g0mC77hOBL3-321" value="photo - фото" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=18;labelBackgroundColor=none;" vertex="1" parent="NJlla8pK8g0mC77hOBL3-320">
+          <mxGeometry y="40" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NJlla8pK8g0mC77hOBL3-322" value="name - имя" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=18;labelBackgroundColor=none;" vertex="1" parent="NJlla8pK8g0mC77hOBL3-320">
+          <mxGeometry y="70" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NJlla8pK8g0mC77hOBL3-331" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.005;entryY=-0.102;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="NJlla8pK8g0mC77hOBL3-301" target="NJlla8pK8g0mC77hOBL3-322">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-380" y="-785" />
+              <mxPoint x="-380" y="-873" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NJlla8pK8g0mC77hOBL3-332" value="Отзыв" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="-1010" y="-160" width="370" height="312" as="geometry" />
+        </mxCell>
+        <mxCell id="NJlla8pK8g0mC77hOBL3-363" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="NJlla8pK8g0mC77hOBL3-332" source="NJlla8pK8g0mC77hOBL3-333">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-280" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NJlla8pK8g0mC77hOBL3-333" value="movi&amp;nbsp; -&amp;nbsp; имя кино" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=18;labelBackgroundColor=none;" vertex="1" parent="NJlla8pK8g0mC77hOBL3-332">
+          <mxGeometry y="40" width="370" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="NJlla8pK8g0mC77hOBL3-335" value="text -&amp;nbsp; текст&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=18;labelBackgroundColor=none;" vertex="1" parent="NJlla8pK8g0mC77hOBL3-332">
+          <mxGeometry y="74" width="370" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="NJlla8pK8g0mC77hOBL3-336" value="date of add&amp;nbsp; - дата добавления отзыва" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=18;labelBackgroundColor=none;" vertex="1" parent="NJlla8pK8g0mC77hOBL3-332">
+          <mxGeometry y="108" width="370" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="NJlla8pK8g0mC77hOBL3-337" value="user name&amp;nbsp; -&amp;nbsp; имя та-во кто оставил отзыв&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=18;labelBackgroundColor=none;" vertex="1" parent="NJlla8pK8g0mC77hOBL3-332">
+          <mxGeometry y="142" width="370" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="NJlla8pK8g0mC77hOBL3-339" value="like -&amp;nbsp; лайк&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=18;labelBackgroundColor=none;" vertex="1" parent="NJlla8pK8g0mC77hOBL3-332">
+          <mxGeometry y="176" width="370" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="NJlla8pK8g0mC77hOBL3-338" value="dislike -&amp;nbsp; дислайк&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=18;labelBackgroundColor=none;" vertex="1" parent="NJlla8pK8g0mC77hOBL3-332">
+          <mxGeometry y="210" width="370" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="NJlla8pK8g0mC77hOBL3-340" value="url - url к кино&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=18;labelBackgroundColor=none;" vertex="1" parent="NJlla8pK8g0mC77hOBL3-332">
+          <mxGeometry y="244" width="370" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="NJlla8pK8g0mC77hOBL3-348" value="catigori - харошый плохой нетральный&amp;nbsp;&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=18;labelBackgroundColor=none;" vertex="1" parent="NJlla8pK8g0mC77hOBL3-332">
+          <mxGeometry y="278" width="370" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="NJlla8pK8g0mC77hOBL3-341" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="NJlla8pK8g0mC77hOBL3-332">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-730" y="-785" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="-825" y="-785" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NJlla8pK8g0mC77hOBL3-343" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="NJlla8pK8g0mC77hOBL3-337">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1530" y="-440" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NJlla8pK8g0mC77hOBL3-346" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NJlla8pK8g0mC77hOBL3-344" target="NJlla8pK8g0mC77hOBL3-299">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NJlla8pK8g0mC77hOBL3-344" value="&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;font-size: 15px; text-wrap: wrap;&quot;&gt;citi&lt;/span&gt;&lt;/font&gt;" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="-1100" y="-1100" width="221" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="NJlla8pK8g0mC77hOBL3-345" value="name&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=18;labelBackgroundColor=none;" vertex="1" parent="NJlla8pK8g0mC77hOBL3-344">
+          <mxGeometry y="40" width="221" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="NJlla8pK8g0mC77hOBL3-351" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NJlla8pK8g0mC77hOBL3-349" target="NJlla8pK8g0mC77hOBL3-348">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NJlla8pK8g0mC77hOBL3-349" value="&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;font-size: 15px; text-wrap: wrap;&quot;&gt;catigori&lt;/span&gt;&lt;/font&gt;" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="-935.5" y="270" width="221" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="NJlla8pK8g0mC77hOBL3-350" value="name&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=18;labelBackgroundColor=none;" vertex="1" parent="NJlla8pK8g0mC77hOBL3-349">
+          <mxGeometry y="40" width="221" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="NJlla8pK8g0mC77hOBL3-357" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="NJlla8pK8g0mC77hOBL3-238">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1304" y="-400" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NJlla8pK8g0mC77hOBL3-361" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NJlla8pK8g0mC77hOBL3-360" target="NJlla8pK8g0mC77hOBL3-152">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NJlla8pK8g0mC77hOBL3-362" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NJlla8pK8g0mC77hOBL3-340" target="NJlla8pK8g0mC77hOBL3-152">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1550" y="-560" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-1600" y="101" />
+              <mxPoint x="-1600" y="-600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NJlla8pK8g0mC77hOBL3-369" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="1">
+          <mxGeometry x="-1640" y="-880" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NJlla8pK8g0mC77hOBL3-370" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="NJlla8pK8g0mC77hOBL3-369">
+          <mxGeometry width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NJlla8pK8g0mC77hOBL3-371" value="средне арефмитическое" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="NJlla8pK8g0mC77hOBL3-370">
+          <mxGeometry width="160" height="40" as="geometry">
+            <mxRectangle width="160" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NJlla8pK8g0mC77hOBL3-373" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.286;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.791;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="NJlla8pK8g0mC77hOBL3-208">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1494" y="-631" as="sourcePoint" />
+            <mxPoint x="-1569.96" y="-840" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-1524" y="-631" />
+              <mxPoint x="-1570" y="-631" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
